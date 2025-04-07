@@ -1,0 +1,21 @@
+:root {
+    --color-blue-300: #003;
+    --color-blue-600: #006;
+}
+
+.btn:active {
+    background-color: var(--color-blue-300) !important;
+}
+
+.btn-blue {
+    background-color: var(--color-blue-300);
+}
+
+.btn-blue:hover {
+    background-color: var(--color-blue-600); 
+}
+
+.bg-blue {
+    background-color: var(--color-blue-300);
+}
+

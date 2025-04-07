@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boots</title>
+    <link rel="stylesheet" href="<!doctype html>
+    <html lang=" en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+
+        <!-- BS Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./css/styles.css">
+
+    </head>
+
+<body>
+
+    <div class="container border rounded mt-4">
+
+        <h2 class="display-4 my-5">LouShow</h2>
+
+        <div class="row">
+            <div class="col-md my-4">
+                <!------------------------ Carousel BS ------------------------>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./imagens/pexels-johannes-havn-835931-2417726.jpg" class="d-block w-100"
+                                alt="Show01">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/pexels-jonathanborba-3563173.jpg" class="d-block w-100" alt="Show02">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/pexels-sebastian-ervi-866902-1763075.jpg" class="d-block w-100"
+                                alt="Show03">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/pexels-thibault-trillet-44912-167467.jpg" class="d-block w-100"
+                                alt="Show04">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/pexels-thibault-trillet-44912-167580.jpg" class="d-block w-100"
+                                alt="Show05">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imagens/pexels-thibault-trillet-44912-167631.jpg" class="d-block w-100"
+                                alt="Show06">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!------------------------ Carousel BS ------------------------>
+
+            </div>
+            <div class="col-md-6 text-center my-4 d-flex flex-column justify-content-center align-items-center">
+                <h4 class="display-6">Os melhores shows</h4>
+                <p class="lead w-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic enim a quae rem
+                    aperiam
+                    magni laboriosam iste quas, voluptates nulla architecto odit ducimus et quaerat quibusdam itaque
+                    mollitia reiciendis. Repellat.</p>
+                <a href="" class="btn btn-blue text-light btn-lg w-50">Agenda de shows</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------- plataformas ------------------------->
+    <section class="cointainer-fluid p-5 bg-blue my-4 text-center">
+        <h4 class="text-light display-5">Baixar nosso app</h4>
+        <div class="mt-4">
+            <a href=""><i class="text-light fs-1  mx-3 bi bi-spotify icon"></i></a>
+            <a href=""><i class="text-light fs-1  mx-3 bi bi-google-play icon"></i></a>
+            <a href=""><i class="text-light fs-1  mx-3 bi bi-apple icon"></i></a>
+            <a href=""><i class="text-light fs-1  mx-3 bi bi-youtube icon"></i></a>
+            <a href=""><i class="text-light fs-1  mx-3 bi bi-file-earmark-music-fill icon"></i></a>
+        </div>
+    </section>
+    <!------------------------- plataformas ------------------------->
+
+    <!-------------------------- card shows -------------------------->
+
+    <section class="container">
+        <h2 class="display-4 my-4">Lista de Shows</h2>
+
+        <!-------------------- grid -------------------->
+
+        <div class="row">
+
+            <!---------------- 1o card ---------------->
+            <div class="col-md-6 col-lg-4 my-2">
+                <div class="card">
+                    <img src="./imagens/pexels-johannes-havn-835931-2417726.jpg" class="card-img-top" alt="Show01">
+                    <div class="card-body">
+                        <h5 class="card-title">Led Zeppelin</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-blue text-light">Comprar ingresso</a>
+                    </div>
+                </div>
+            </div>
+            <!---------------- fim 1o card ---------------->
+
+            <!---------------- 2o card ---------------->
+            <div class="col-md-6 col-lg-4 my-2">
+                <div class="card">
+                    <img src="./imagens/pexels-jonathanborba-3563173.jpg" class="card-img-top" alt="Show01">
+                    <div class="card-body">
+                        <h5 class="card-title">Pink Floyd</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-blue text-light">Comprar ingresso</a>
+                    </div>
+                </div>
+            </div>
+            <!---------------- fim 2o card ---------------->
+            
+            <!---------------- 3o card ---------------->
+            <div class="col-md-6 col-lg-4 my-2">
+                <div class="card">
+                    <img src="./imagens/pexels-sebastian-ervi-866902-1763075.jpg" class="card-img-top" alt="Show01">
+                    <div class="card-body">
+                        <h5 class="card-title">ACDC</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-blue text-light">Comprar ingresso</a>
+                    </div>
+                </div>
+            </div>
+            <!---------------- fim 3o card ---------------->
+            
+            <!---------------- 4o card ---------------->
+            <div class="col-md-6 col-lg-4 my-2">
+                <div class="card">
+                    <img src="./imagens/pexels-thibault-trillet-44912-167467.jpg" class="card-img-top" alt="Show01">
+                    <div class="card-body">
+                        <h5 class="card-title">Queen</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-blue text-light">Comprar ingresso</a>
+                    </div>
+                </div>
+            </div>
+            <!---------------- fim 4o card ---------------->
+            
+            <!---------------- 5o card ---------------->
+            <div class="col-md-6 col-lg-4 my-2">
+                <div class="card">
+                    <img src="./imagens/pexels-thibault-trillet-44912-167580.jpg" class="card-img-top" alt="Show01">
+                    <div class="card-body">
+                        <h5 class="card-title">The Beattles</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-blue text-light">Comprar ingresso</a>
+                    </div>
+                </div>
+            </div>
+            <!---------------- fim 5o card ---------------->
+            
+            <!---------------- 6o card ---------------->
+            <div class="col-md-6 col-lg-4 my-2">
+                <div class="card">
+                    <img src="./imagens/pexels-thibault-trillet-44912-167631.jpg" class="card-img-top" alt="Show01">
+                    <div class="card-body">
+                        <h5 class="card-title">The Who</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's
+                            content.</p>
+                        <a href="#" class="btn btn-blue text-light">Comprar ingresso</a>
+                    </div>
+                </div>
+            </div>
+            <!---------------- fim 6o card ---------------->
+
+        </div>
+
+        <!---------------- fim grid ---------------->
+
+    </section>
+
+    <!-------------------------- card shows -------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+
+    </script>
+
+</body>
+
+</html>
+</head>
+
+<body>
+
+</body>
+
+</html>
